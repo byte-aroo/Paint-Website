@@ -383,8 +383,7 @@ a {
   list-style: none;
   font-size: 45px !important;
   font-weight: 700;  
-  color: #f46b27;
-  text-shadow: 1px 2px 2px #020202; 
+  color: #ec1f25;
   line-height: 1 !important;
   margin: 20px 0px 20px 0px;
 }
@@ -466,7 +465,7 @@ a {
   position: relative;
   width: 28px;
   height: 2px;
-  background-color: #f46b27;
+  background-color: #ff0000;
   background-image: none;
   transition: all 0.3s ease-in-out;
 }
@@ -544,7 +543,7 @@ a {
   }
   .nav-item:hover {
     color: white;
-    background-color: #f46b27;;
+    background-color: #4c423d;;
   }
   .dropdown-menu {
     top: 99%;
@@ -559,7 +558,7 @@ a {
   .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-    background-color: #ff0016;
+    background-color: #7cb33d;
   }
   .dropdown-item {
     padding: 10px 15px;
@@ -567,11 +566,11 @@ a {
   }
   .dropdown-item:visited {
     color: #fff;
-    background-color: #ff0016;
+    background-color: #eea3a9;
   }
   .dropdown-item:hover {
     color: #fff;
-    background-color: #ec0518;
+    background-color: #0b0a0a;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -639,15 +638,16 @@ body {
 .text-part__title {
   font-size: 70px !important;
   font-weight: 700;  
-  color: #ce632e;
+  color: #ec1f25;
   text-shadow: 1px 2px 2px #020202; 
   line-height: 1 !important;
+  font-style: oblique;
 }
 .text-part__tagline {
   font-weight: 1000;
-  color: #f06621;
+  color: #32346e;
   font-style: italic;
-  text-shadow: 1px 1px 2px #322f2f; 
+  text-shadow: 1px 2px 2px #ec1f25; 
   margin: 0px !important;
 }
 
@@ -873,7 +873,7 @@ body {
   margin: 50px 50px 0px 50px;
   font-size: 4em;
   font-weight: 700;
-  color: #f46b27;
+  color: #ec1f25;
   text-shadow: 1px 1px 2px #bebebe;
 }
 @media screen and (max-width: 1440px) {
@@ -1090,7 +1090,7 @@ body {
 }
 
 .product__btn {
-  background-color: #d85b1c;
+  background-color: #ec1f25;
   color: #fff;
   font-size: 3em;
   font-weight: 300;
@@ -1139,7 +1139,7 @@ body {
   padding-bottom: 30px;
   font-size: 4em;
   font-weight: 700;
-  color: #ec601a;
+  color: #ec1f25;
   text-shadow: 1px 1px 2px #bebebe;
 }
 
@@ -1254,10 +1254,10 @@ body {
   margin: 54px 0 54px;
 }
 .main__nav .active {
-  color: #ff0016;
+  color: #0f0d0d;
 }
 .main__nav .breadcrumb-item:hover {
-  color: #ff0016;
+  color: #141212;
 }
 
 .story-title {
