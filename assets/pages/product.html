@@ -10,81 +10,33 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="shortcut icon" href="../../favicon.svg" type="image/svg" />
-    <title>Dewilux</title>
+    <link rel="shortcut icon" href="../../favicon.png" type="image/png" />
+    <title>PanCoat</title>
   </head>
   <body>
     <header class="header sticky-top">
       <div class="container-xl">
-        <nav class="navbar navbar-expand-md p-0">
+        <nav class="navbar p-0">
           <a class="navbar-brand header__home-link" href="../../index.html">
-            <svg class="header__home-icon">
-              <use xlink:href="../icons/sprite.svg#home"></use>
-            </svg>
-            <svg class="logo">
-              <use xlink:href="../icons/sprite.svg#logo"></use>
-            </svg>
+            <div class="header__logo">
+              PanCoat
+            </div>
           </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
+  
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav justify-content-end flex-grow-1">
-              <li class="nav-item dropdown">
-                <a
-                  class="header__link dropdown-toggle"
-                  href="../pages/dropdown-company.html"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  о компании
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="../pages/dropdown-aboutus.html"
-                      >о нас</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../pages/story.html"
-                      >история компании</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="../pages/dropdown-dyoworld.html"
-                      >DYO в мире</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="../pages/dropdown-dyorussia.html"
-                      >завод DYO в России</a
-                    >
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="header__link" href="../pages/dropdown-company.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="header__link" href="../pages/product.html">продукция</a>
+                <a class="header__link" href="../pages/product.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="header__link" href="../pages/contacts.html"
-                  >контакты</a
-                >
+                <a class="header__link" href="../pages/contacts.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -95,8 +47,8 @@
     <main class="main ">
       <section class="hero-section">
         <div class="hero-section__image-block-products image-block">
-          <h1 class="main__product-title">Продукция компании</h1>
-          <h2 class="main__product-title">Лако-красочные изделия</h2>
+          <h1 class="main__product-title"></h1>
+          <h2 class="main__product-title"></h2>
         </div>
       </section>
        <div class="container product">
@@ -118,286 +70,369 @@
               </li>
             </ol>
           </nav>
+          <h5 style="text-align: center; font-size: 20px; color: #dd2a2a; background-color: #f4e2e2; padding: 15px; border-radius: 8px;">
+            Looking for more details?
+            <a href="https://drive.google.com/file/d/1vIJ9_UMDcQEU0OhsAeiSsLwdyeHjeqz3/view?usp=drive_link"
+            target="_blank" rel="noopener noreferrer" 
+              style="color: #dd2a2a; text-decoration: underline; font-weight: bold;">
+              Click here</a>
+            to explore our full product catalogue.
+          </h5>
+          
+          
           <div class="col-lg-4 col-sm-6">
             <div class="product-card mb-4 product-card_style">
+                <div class="product-thumb text-center product__img">
+                  <img src="../images/products/SHEER GLOSS_ENAMEL.jpg" alt="SHEER GLOSS">
+                </div>
+                <div class="product-details text-center product__product-details">
+                  <h3>"SHEER GLOSS"<br>Premium Advanced Enamel</h3>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                 <img src="../images/product1.png" alt="product_img">
+                <img src="../images/products/2 Season ENAMEL.jpg" alt="2 Season">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>БЕЛАЯ НИТРОЦЕЛЛЮЛОЗНАЯ КРАСКА “VIGOLOID”</h3>
-                <p>
-                  Однокомпонентная краска воздушной сушки на нитроцеллюлозной
-                  основе для отделки деревянной мебели, эксплуатируемой внутри
-                  помещения.
-                </p>
+                <h3>"2 SEASON"<br>Quick Drying G.P. Synthetic Enamel</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/AMAZE ALL PURPOSE PRIMER REVISED.jpg" alt="Amaze">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>"AMAZE"<br>Primer Surfacer White (Solvent Based)</h3>                
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Steel Guard Red Oxide Primer (1).jpg" alt="Steel Guard">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>"STYLE GUARD"<br>Red Oxide Primer (Solvent Based)</h3>                
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product2.png" alt="product_img" />
+                <img src="../images/products/Virast.jpg" alt="VIRASAT">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  ПОЛИУРЕТАНОВАЯ КРАСКА “DERODUR”, БЕЛАЯ МАТОВАЯ Отвердитель для
-                  матовой ПУ краски
-                </h3>
-                <p>
-                  Двухкомпонентная белая полиуретановая краска, высыхающая
-                  в&nbsp;результате химической реакции. Отличается высокой
-                  скоростью высыхания
-                </p>
+                <h3>"VIRASAT"<br>Premium Luxury Interior Acrylic Emulsion with Fragrance</h3>                
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product3.png" alt="product_img" />
+                <img src="../images/products/Xoression Shyne PLUS.jpg" alt="XPRESSION SHYNE PLUS">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Полиуретановый грунт для отделки МДФ, белый Отвердитель для
-                  полиуретановых ЛКМ
-                </h3>
-                <p>
-                  Двухкомпонентный полиуретановый грунт для отделки мебели,
-                  эксплуатируемой внутри помещений. Легко шлифуется, быстро
-                  сохнет, образует идеально ровную поверхность под финишное
-                  покрытие.
-                </p>
+                <h3>"XPRESSION SHYNE PLUS"<br>Super Luxury Interior Acrylic Emulsion with Fragrance & Shyne</h3>                
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product4.png" alt="product_img" />
+                <img src="../images/products/Xoression Shyne.jpg" alt="SHEER GLOSS_ENAMEL">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  ПОЛИУРЕТАНОВЫЙ ГРУНТ, КРЕМОВЫЙ / Отвердитель для
-                  полиуретановых ЛКМ
-                </h3>
-                <p></p>
+                <h3>“XPRESSION SHYNE”<br>Super Luxury Interior Acrylic Emulsion with Fragrance & Shyne</h3>                
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product5.png" alt="product_img" />
+                <img src="../images/products/PETALS Max INTERIOR EMULSION.jpg" alt="PETALS CLASSIC">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Белый полиуретановый грунт для отделки МДФ Отвердитель для
-                  полиуретанового грунта
-                </h3>
-                <p></p>
+                <h3>“PETALS CLASSIC”<br>Luxury Interior Acrylic Emulsion</h3>                
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product6.png" alt="product_img" />
+                <img src="../images/products/Pearl SHYNE.jpg" alt="PETALS SHYNE">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Полиуретановый грунт для отделки МДФ, белый Отвердитель для
-                  полиуретановых ЛКМ
-                </h3>
-                <p>
-                  Двухкомпонентный полиуретановый грунт для отделки мебели,
-                  эксплуатируемой внутри помещений. Легко шлифуется, образует
-                  идеально ровную поверхность под финишное покрытие.
-                </p>
+                <h3>“PETALS SHYNE”<br>Interior Acrylic Emulsion with Fragrance</h3>                
               </div>
             </div>
           </div>
+          
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product4.png" alt="product_img" />
+                <img src="../images/products/Pearl Advance.jpg" alt="SHEER GLOSS_ENAMEL">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Полиуретановый прозрачный грунт Отвердитель для полиуретановых
-                  ЛКМ
-                </h3>
-                <p></p>
+                <h3>“PETALS ADVANCED”<br>Interior Acrylic Emulsion with Fragrance</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product5.png" alt="product_img" />
+                <img src="../images/products/Super Blaster.jpg" alt="SUPER BLASTER CLASSIC">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Полиуретановая краска для межкомнатных дверей, кремовая
-                  Отвердитель для ПУ краски для дверей
-                </h3>
-                <p>
-                  Двухкомпонентная полиуретановая краска для отделки
-                  межкомнатных дверей с сотовым заполнением, которая отличается
-                  высокой скоростью высыхания и хорошей укрывистостью.
-                </p>
+                <h3>“SUPER BLASTER CLASSIC”<br>Interior Acrylic Emulsion</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product6.png" alt="product_img" />
+                <img src="../images/products/Triple 1.jpg" alt="TRIPLE 1">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Полиуретановый грунт для отделки МДФ, белый Отвердитель для
-                  полиуретановых ЛКМ
-                </h3>
-                <p></p>
+                <h3>“TRIPLE 1”<br>Interior Acrylic Emulsion</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product10.png" alt="product_img" />
+                <img src="../images/products/Signature Premium Luxury Exterior Emulsion.jpg" alt="SIGNATURE">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Акриловый матовый лак "Ultramar" Отвердитель для акриловых
-                  лаков и эмалей
-                </h3>
-                <p></p>
+                <h3>“SIGNATURE”<br>Premium Luxury Exterior Emulsion</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product11.png" alt="product_img" />
+                <img src="../images/products/Ultra Cool Shyne.jpg" alt="Ultra Cool Shyne">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>Нитроцеллюлозная глянцевая белая база "Dewimix"</h3>
-                <p></p>
+                <h3>“ULTRA COOL SHYNE”<br>Luxury Exterior Emulsion</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product12.png" alt="product_img" />
+                <img src="../images/products/Ultra cool.jpg" alt="Ultra cool">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Акриловый шелковисто-матовый лак Отвердитель для акриловых
-                  лаков / краски
-                </h3>
-                <p></p>
+                <h3>“ULTRA COOL PREMIUM”<br>Anti Dust Exterior / Interior Emulsion with Fragrance</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product15.png" alt="product_img" />
+                <img src="../images/products/Aashirwad Advanced SHYNE.jpg" alt="Aashirwad Advanced SHYNE">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>Полиуретановая глянцевая белая база "Dewimix"</h3>
-                <p></p>
+                <h3>“AASHIRVAD ADVANCED SHYNE”<br>Exterior Emulsion With Silicon Protection</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product16.png" alt="product_img" />
+                <img src="../images/products/Aashirwad Advanced.jpg" alt="Aashirwad Advanced">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>ПАТИНА (КРАСКА С ЭФФЕКТОМ СТАРЕНИЯ) КОРИЧНЕВАЯ</h3>
-                <p>
-                  Патина - это однокомпонентная краска с эффектом старения на
-                  синтетической основе для отделки деревянных поверхностей,
-                  эксплуатируемых внутри помещений.
-                </p>
+                <h3>“AASHIRVAD ADVANCED”<br>Acrylic Emulsion For Exterior With Silicon Protection</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product17.png" alt="product_img" />
+                <img src="../images/products/Super Sixer SHYNE.jpg" alt="Super Sixer SHYNE">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>Общий отвердитель для ПУ баз колеровочной системы</h3>
-                <p></p>
+                <h3>“SUPER SIXER SHYNE”<br>Exterior / Interior Emulsion With Fragrance</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product19.png" alt="product_img" />
+                <img src="../images/products/Super Sixer MAX.jpg" alt="Super Sixer MAX">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  Белая глянцевая эмаль на водной основе для наружных работ
-                </h3>
-                <p></p>
+                <h3>“SUPER SIXER MAX”<br>Exterior / Interior Emulsion With Fragrance</h3>                
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="product-card product-card_style">
               <div class="product-thumb text-center product__img">
-                <img src="../images/product16.png" alt="product_img" />
+                <img src="../images/products/Triple 3.jpg" alt="Triple 3">
               </div>
               <div class="product-details text-center product__product-details">
-                <h3>
-                  РАПИД ПАТИНА (БЫСТРОСОХНУЩАЯ КРАСКА С ЭФФЕКТОМ СТАРЕНИЯ)
-                  ТЕМНЫЙ ОРЕХ
-                </h3>
-                <p>
-                  Патина - это однокомпонентная краска с эффектом старения на
-                  синтетической основе для отделки деревянных поверхностей,
-                  эксплуатируемых внутри помещений.
-                </p>
+                <h3>“TRIPLE 3”<br>Advanced Exterior / Interior Emulsion</h3>                
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Triple 2.jpg" alt="Triple 2">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“TRIPLE 2”<br>Classic Exterior / Interior Acrylic Emulsion</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/DAMP SEAL.jpg" alt="DAMP SEAL">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“DAMP SEAL”<br>Waterproofing Solution</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Sunrise Distemper.jpg" alt="Sunrise Max">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“SUNRISE MAX”<br>Premium Acrylic Distemper (with Extra Covering) For Interior Use</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Exterior Wall Primer.jpg" alt="Exterior Wall Primer">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“EXTERIOR WALL PRIMER”<br>Water Thinnable Premium Quality</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/All Rounder Acrylic Cement Primer.jpg" alt="All Rounder Acrylic Cement Primer">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“ALL ROUNDER”<br>Exterior/Interior Acrylic Cement Primer</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/PANCOAT Interior Acrylic Cement Primer.jpg" alt="PANCOAT Interior Acrylic Cement Primer">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“INTERIOR ACRYLIC CEMENT PRIMER”<br>Premium Quality</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Acrylic Universal Cement Primer.jpg" alt="Acrylic Universal Cement Primer">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“ACRYLIC UNIVERSAL CEMENT PRIMER SMART”<br>(For Interior Use Only)</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Colourant.jpg" alt="Colourant">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“COLOUR MATCH COLOURANT”<br>FOR TINTING</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Acarlic Wallputty.jpg" alt="Acarlic Wallputty">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>"ACRYLIC WALL PUTTY"<br>(Paste)</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/WALL MASTER PLUS 20 Kg..jpg" alt="WALL MASTER PLUS 20 Kg">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“WALL MASTER PLUS WALL PUTTY”<br>(Powder)</h3>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card product-card_style">
+              <div class="product-thumb text-center product__img">
+                <img src="../images/products/Pancoat Texture 2.jpg" alt="Pancoat Texture">
+              </div>
+              <div class="product-details text-center product__product-details">
+                <h3>“PANCOAT TEXTURE”<br>Premium Quality</h3>                
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
     <footer class="footer">
       <div class="footer__container">
-        <address class="footer__address">
-          <ul class="footer__contacts">
-            <li>
-              <a href="mailto:dewilux@list.ru" target="_blank"
-                >dewilux@list.ru</a
-              >
-            </li>
-            <li><a href="tel:+79273756393">+7 (927) 375-63-93</a></li>
-          </ul>
-        </address>
-        <svg class="logo">
-          <use xlink:href="../icons/sprite.svg#logo"></use>
-        </svg>
+        <div class="footer__logo">
+            PanCoat
+        </div>
         <ul class="footer__list">
-          <li>
-            <a href="../pages/dropdown-company.html">о компании</a>
-          </li>
-          <li><a href="../pages/product.html">продукция</a></li>
-          <li><a href="../pages/contacts.html">контакты</a></li>
+          <li><a href="../pages/dropdown-company.html">About Us</a></li>
+          <li><a href="../pages/product.html">Products</a></li>
+          <li><a href="../pages/contacts.html">Contact Us</a></li>
         </ul>
       </div>
       <div class="footer__copyright">
-        <p class="footer__copyright-text">© 2024 ITGIRLSCHOOL</p>
-        <p class="footer__copyright-text">Изображения разработаны Freepik</p>
+        <p class="footer__copyright-text">© <span id="year"></span> PanCoat</p>
+        <p class="footer__copyright-text"><a href="https://www.bytearoo.com" target="_blank">Designed and maintained by <i>Bytearoo</i></a></p>
       </div>
     </footer>
     <script
@@ -405,5 +440,8 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
