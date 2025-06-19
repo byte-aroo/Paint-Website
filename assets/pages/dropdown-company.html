@@ -1,157 +1,153 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="shortcut icon" href="../../favicon.svg" type="image/svg" />
-    <title>Dewilux</title>
-    </head>
-    <body>
+    <link rel="shortcut icon" href="../../favicon.svg" type="image/png" />
+    <title>PanCoat</title>
+</head>
+
+<body>
     <header class="header sticky-top">
         <div class="container-xl">
-        <nav class="navbar navbar-expand-md p-0">
-            <a class="navbar-brand header__home-link" href="../../index.html">
-            <svg class="header__home-icon">
-                <use xlink:href="../icons/sprite.svg#home"></use>
-            </svg>
-            <svg class="logo">
-                <use xlink:href="../icons/sprite.svg#logo"></use>
-            </svg>
-            </a>
-            <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item dropdown">
-                <a
-                class="header__link dropdown-toggle"
-                href="../pages/dropdown-company.html"
-                role="button"
-                aria-expanded="false"
-                >
-                о компании
+            <nav class="navbar p-0">
+                <a class="navbar-brand header__home-link" href="../../index.html">
+                    <div class="header__logo">
+                        PanCoat
+                    </div>
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../pages/dropdown-aboutus.html">о нас</a></li>
-                <li>
-                <a class="dropdown-item" href="../pages/story.html">история компании</a>
-                </li>
-                    <li>
-                    <a class="dropdown-item" href="../pages/dropdown-dyoworld.html">DYO в мире</a>
-                    </li>
-                <li>
-                    <a class="dropdown-item" href="../pages/dropdown-dyorussia.html">завод DYO в России</a>
-                </li>
-                </ul>
-                </li>
-            <li class="nav-item">
-                <a class="header__link" href="../pages/product.html">продукция</a>
-            </li>
-            <li class="nav-item">
-                <a class="header__link" href="../pages/contacts.html">контакты</a>
-                </li>
-            </ul>
-        </div>
-        </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                            <a class="header__link" href="../pages/dropdown-company.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__link" href="../pages/product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__link" href="../pages/contacts.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <main class="dropdowns">
         <div class="image-header" style="background-image: url(../images/company.png)"></div>
-    <section class="section-dropdowns">
-        <div class="dropdowns__container">
-            <nav class="main__nav" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="../../index.html">Главная страница</a></li>
-                <li class="breadcrumb-item active text-danger" aria-current="page" >О компании</li>
-            </ol>
-        </nav>
+        <section class="section-dropdowns">
+            <div class="dropdowns__container">
+                <nav class="main__nav" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../../index.html">Home Page</a></li>
+                        <li class="breadcrumb-item active text-danger" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
 
-            <h1 class="dropdowns__title">О нас</h1>
-    
-    <p class="dropdowns-text">История нашей компании, являющейся одной из ведущих компаний турецкой лакокрасочной промышленности, начинается с открытия магазина для торговли красками в 1927 году в Измире, на рынке &ldquo;Шеритчилер&rdquo;.</p>
+                <h1 class="dropdowns__title">🖌️ About Pancoat Paints India Limited</h1>
 
-    <p class="dropdowns-text">Начавшееся в 1941 году в этом небольшом магазине производство красок продолжилось открытием в 1954 Дурмушем Яшаром и его сыновьями Сельчуком Яшаром и Сельманом Яшаром первого завода по производству ЛКМ в Турции. Мы гордимся тем, что компания является флагманом &ndash;первопроходцем отечественной лакокрасочной промышленности.</p>
+                <p class="dropdowns-text">
+                    Pancoat Paints India Limited, established in July 2020,
+                    is a rapidly growing public limited company headquartered in Jaipur,
+                    Rajasthan. In just a few short years,
+                    Pancoat has become a trusted name in the Indian paint industry,
+                    delivering consistently high-quality products backed by over
+                    54 years of combined leadership experience.
+                </p>
+                <h2><strong>🚀 Our Journey & Growth</strong></h2>
+                <p>
+                    Pancoat started with a vision to make world-class paints
+                    accessible to every Indian household.
+                    Since its inception, the company has achieved remarkable milestones:
+                    <br><br><b>Production Capacity:</b> Our state-of-the-art manufacturing facility
+                    operates at 25 tons/day, totaling 625 tons/month,
+                    allowing us to meet growing demand while maintaining strict quality control.
+                    <br><b>Dealer Network:</b> From 0 to 252 dealers across Rajasthan in just 4.5 years — a testament to
+                    our strategic partnerships and trusted products.
+                    <br><b>Expansion Plans:</b> We aim to expand to 300 dealers by March 2026, while actively preparing
+                    to launch operations in other Indian states.
+                </p>
+                <br><br>
+                <h2><strong>🧪 Our Product Portfolio</strong></h2>
+                <p>
+                    We offer a comprehensive range of products that cater to both residential and commercial needs:
+                    <br>
+                    <li><b>Exterior Emulsions:</b> Built to withstand harsh Indian weather conditions.</li>
+                    <li><b>Interior Emulsions:</b> Smooth finishes, rich tones, and easy maintenance.</li>
+                    <li><b>Wall Putty:</b> Superior adhesion and crack resistance.</li>
+                    <li><b>Primers</b> Ensuring a perfect foundation for every coat.</li>
+                    <li><b>Textured Finishes</b> For design-centric architectural projects.</li>
+                    <li><b>Enamels</b> Durable and high-gloss finishes for wood and metal.</li>
+                    <li><b>Waterproofing Solutions</b> Protecting structures from water damage and seepage.</li>
+                    <br>
+                    Each product is formulated using advanced technology and eco-friendly materials to ensure
+                    durability, performance, and
+                    sustainability.
+                </p>
+                <br><br>
+                <h2><strong>🛠️ Innovation & R&D</strong></h2>
+                <p>
+                    Our in-house R&D team continuously explores new formulations and technologies. By investing in
+                    product innovation,
+                    we stay ahead of trends and consumer needs. Recent advancements include:
+                <ul>
+                    <li>Low-VOC and eco-friendly paints</li>
+                    <li>Faster drying enamels</li>
+                    <li>Multi-surface water-resistant coatings</li>
+                </ul>
+                </p>
+                <br><br>
+                <h2><strong>🌱 Sustainability Commitment</strong></h2>
+                <p>
+                    We believe in growing responsibly. Our factory operations follow eco-conscious practices, including:
+                <ul>
+                    <li>Efficient waste management</li>
+                    <li>Low energy consumption processes</li>
+                    <li>Minimal use of harmful chemicals</li>
+                </ul>
+                We strive to reduce our carbon footprint while delivering exceptional value to customers.
 
-    <h2><strong>Важность красок&nbsp;</strong></h2>
-
-    <p class="dropdowns-text">Краски &mdash; это наша гордость. Наши декоративные краски окрашивают стены в жилых помещениях и в то же время обеспечивают защиту поверхностей на долгие годы. Промышленные краски&nbsp;разработаны для всех видов поверхностей: от бытовой техники до кораблей в море, от разметки на дорогах до оборудования на производственных объектах. Они способствуют повышению стойкости этих поверхностей ко всем внешним воздействиям. Мы гордимся отраслью, в которой работаем и своей деятельностью благодаря ценностям, которые мы привносим.</p>
-
-    <h2><strong>Разнообразие секторов</strong></h2>
-
-    <p class="dropdowns-text">Мы удовлетворяем потребности страны в лакокрасочных материалах во всех сферах, также вносим свой вклад в развитие лакокрасочной отрасли.Мы постоянно совершенствуем наши специализированные краски для мебельной, оборонной, судовой, автомобильной и энергетической отраслей. Помимо наших специальных лакокрасочных покрытий как DYO Transocean, порошковые краски DYO, ЛКМ для рулонного металла DYO, мы также производим теплоизоляционные материалы и ненасыщенные полиэфирные смолы.Мы гордимся тем, что являемся единственной компанией Турции, которая производит лакокрасочные материалы во всех сегментах лакокрасочной отрасли.</p>
-
-    <h2><strong>Продукция и услуги, ориентированные на потребности человека</strong></h2>
-
-    <p class="dropdowns-text">Со дня основания по сей день наша работа постоянно ориентирована на достижение решений. C брендами “DYO”, “Dewilux”, “Casati”, “Klimatherm” и “Dyotherm” мы предлагаем широкий ассортимент продукции, насчитывающей 1.200 наименований лакокрасочных материалов, 3.500 видов упаковок и 60.000 цветов. В рамках наших разработок промышленных покрытий мы производим продукцию, которая приносит большую пользу Турции, обществу и нашим клиентам, от автомобилей до бытовой техники, от радиаторов до литьевых изделий, от производства телевизоров до оборонной промышленности. В сегменте декоративных красок, мы предоставляем разработанные нами продукты, ориентированные на удовлетворение потребностей клиентов, а также предлагаем очень ценные для нас услуги. Мы продолжаем работать во благо наших клиентов, предоставляя им техническую поддержку до и после продажи, консультационные услуги по выбору цвета и дизайну.</p>
-
-    <h2><strong>Научно-ориентированный подход&nbsp;</strong></h2>
-
-    <p class="dropdowns-text">Мы любим исследования. Мы основали 1971 году первый научно-исследовательский центр лакокрасочной и химической промышленности. Мы гордимся тем, что научно-исследовательский центр DYO, был признан самым успешным центром в химической промышленности в 2013 году. На сегодняшний день у нас есть два научно-исследовательских центра на заводах в Чигли и Гезбе, способных проводить инновационные разработки в том числе в области нанотехнологий.</p>
-
-    <h2><strong>Значение устойчивого развития для компании</strong></h2>
-
-    <p class="dropdowns-text">Благодаря реализации тематических проектов &ldquo;Ценность для учащихся&rdquo;, &ldquo;Ценность для маляров&rdquo;, &ldquo;Ценность для школ&rdquo; в рамках проекта &ldquo;Ценность завтрашнего дня&rdquo; мы стремимся построить лучшее будущее, создавая практики устойчивого развития, основанные на научные данные и исследований. Благодаря спонсорской поддержке Турецкой национальной футбольной команды, организации художественных конкурсов с вручением премий живописи DYO, которые мы реализуем в течение 53 лет под эгидой Фонда образования и культуры &ldquo;Яшар&rdquo;, а также сотрудничеству с архитекторами мы продолжаем работать с обществом и для общества.</p>
-
-    <h2><strong>Международная деятельность&nbsp;</strong></h2>
-
-    <p class="dropdowns-text">Мы продолжаем укреплять свою деятельность на международном рынке. Через наших деловых партнеров мы предлагаем нашу продукцию в Азию, Европу и Африку и экспортируем их в более чем 40 стран мира. Наряду с этим, мы продолжаем эффективную работу на рынках России и Восточной Европы с помощью продукции, которую мы производим на нашем российском заводе в Краснодаре.</p>
-
-    <h2><strong>Надежная связь с нашей экосистемой</strong></h2>
-
-    <p class="dropdowns-text">Прочная связь и сильное чувство доверия, которые мы создали с нашими сотрудниками, потребителями, промышленными клиентами, дилерами, мастерами, поставщиками и деловыми партнерами начиная с момента основания компании, обеспечили передачу нашего бренда из поколения в поколение. Благодаря этому чувству доверия наша компания превратилась в сообщество, где люди тесно связаны между собой и чувствуют свою принадлежность. DYO продолжает прикасаться к жизни людей и раскрашивать их мир на протяжении многих лет своей этической, честной, новаторской и ведущей позицией.</p>
-            
-        </div>
-    </section>
+                </p>
+                <br><br>
+                <h4 style="text-align: center; font-size: 30px; color:#242220;">At Pancoat
+                    Paints, we don't just add color to walls:<br>We bring innovation, trust, and quality to every surface
+                    we touch.</h4>
+            </div>
+        </section>
+        <br><br><br><br>
     </main>
     <footer class="footer">
         <div class="footer__container">
-          <address class="footer__address">
-            <ul class="footer__contacts">
-              <li>
-                <a href="mailto:dewilux@list.ru" target="_blank"
-                  >dewilux@list.ru</a
-                >
-              </li>
-              <li><a href="tel:+79273756393">+7 (927) 375-63-93</a></li>
+            <div class="footer__logo">
+                PanCoat
+            </div>
+            <ul class="footer__list">
+                <li><a href="../pages/dropdown-company.html">About Us</a></li>
+                <li><a href="../pages/product.html">Products</a></li>
+                <li><a href="../pages/contacts.html">Contact Us</a></li>
             </ul>
-           </address>
-          <svg class="logo">
-            <use xlink:href="../icons/sprite.svg#logo"></use>
-          </svg>
-          <ul class="footer__list">
-            <li>
-                <a href="../pages/dropdown-company.html">о компании</a>
-            </li>
-            <li><a href="../pages/product.html">продукция</a></li>
-            <li><a href="../pages/contacts.html">контакты</a></li>
-          </ul>
         </div>
         <div class="footer__copyright">
-            <p class="footer__copyright-text">© 2024 ITGIRLSCHOOL</p>
-            <p class="footer__copyright-text">Изображения разработаны Freepik</p>
+            <p class="footer__copyright-text">© <span id="year"></span> PanCoat</p>
+            <p class="footer__copyright-text"><a href="https://www.bytearoo.com" target="_blank">Designed and maintained
+                    by <i>Bytearoo</i></a></p>
         </div>
-      </footer>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"
-      ></script>
-    </body>
-  </html>
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
