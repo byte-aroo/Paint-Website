@@ -1,2 +1,2 @@
 # PanCoat
-website for a paint seller company
+website for a paint seller company 
