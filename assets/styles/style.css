@@ -465,7 +465,7 @@ a {
   position: relative;
   width: 28px;
   height: 2px;
-  background-color: #ff0000;
+  background-color: #ffffff;
   background-image: none;
   transition: all 0.3s ease-in-out;
 }
@@ -478,7 +478,7 @@ a {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: #000000;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1814,6 +1814,22 @@ body {
 }
 
 .footer__list li:hover {
+  opacity: 0.5;
+}
+
+.footer_iso__list {
+  /* padding-left: 40px; */
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: #6f6f6f;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.footer_iso__list li:hover {
   opacity: 0.5;
 }
 

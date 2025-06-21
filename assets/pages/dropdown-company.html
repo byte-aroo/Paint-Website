@@ -12,12 +12,11 @@
 </head>
 
 <body>
-    <header class="header sticky-top">
+    <header class="header sticky-top" style="background-color: rgb(228, 25, 25);">
         <div class="container-xl">
             <nav class="navbar p-0">
                 <a class="navbar-brand header__home-link d-flex align-items-center" href="../../index.html">
-                    <img src="../../favicon.svg" alt="Logo" class="header__home-icon me-2" style="margin-right: 15px !important;" />
-                    <div class="header__logo">PanCoat</div>
+                    <img src="../icons/hq_logo_cropped.png" alt="Logo" style="margin-right: 15px; width: 250px !important; height: 80px !important; padding: 9px" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -135,10 +134,13 @@
                 <li><a href="../pages/contacts.html">Contact Us</a></li>
             </ul>
         </div>
-        <div class="footer__copyright">
+        <div class="footer__container" style="background-color: white; height: 100px">
+            <ul class="footer_iso__list" style="margin-top: 10px;">
+              <li><img src="../icons/iso_blue.png" class="header__home-icon me-2" style="height: 50px; width: auto;"></li>
+              <li><img src="../icons/iso_red.png" class="header__home-icon me-2" style="height: 50px; width: auto;"></li>
+              <li><img src="../icons/iso_green.png" class="header__home-icon me-2" style="height: 50px; width: auto;"></li>
+            </ul>
             <p class="footer__copyright-text">© <span id="year"></span> PanCoat</p>
-            <p class="footer__copyright-text"><a href="https://www.bytearoo.com" target="_blank">Designed and maintained
-                    by <i>Bytearoo</i></a></p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
